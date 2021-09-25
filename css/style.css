@@ -352,7 +352,7 @@ ol {
 	color: #252525;
 	display: inline-block;
 	padding-left: 20px;
-
+    text-shadow: #ffff;
 	padding-top: 18px;
 	padding-bottom: 15px;
 }
