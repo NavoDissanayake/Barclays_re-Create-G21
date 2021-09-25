@@ -4,6 +4,7 @@ body {
 	font-family: "Muli", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+
 }
 
 h1,
@@ -82,6 +83,7 @@ ol {
 .section-title {
 	margin-bottom: 40px;
 	text-align: center;
+    color: #ffffff;
 }
 
 .section-title .product-price {
@@ -3874,6 +3876,7 @@ ol {
 @media only screen and (min-width: 1200px) {
 	.container {
 		max-width: 1170px;
+        text-decoration-color: aliceblue;
 	}
 }
 
@@ -3933,6 +3936,7 @@ ol {
 	.deal-of-week {
 		margin-left: 0;
 		margin-right: 0;
+        border:1px solid #E5E5E5;
 	}
 	.product-slider .owl-nav button[type=button] {
 		display: none;
