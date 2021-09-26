@@ -1849,23 +1849,23 @@ ol {
 }
 
 .filter-widget .fw-color-choose .cs-item label.cs-violet:before {
-	background: #8230E3;
+	background: #271473;
 }
 
 .filter-widget .fw-color-choose .cs-item label.cs-blue:before {
-	background: #2773BE;
+	background: #6f7571;
 }
 
 .filter-widget .fw-color-choose .cs-item label.cs-yellow:before {
-	background: #EEEE21;
+	background: #d1ce0d;
 }
 
 .filter-widget .fw-color-choose .cs-item label.cs-red:before {
-	background: #DC3232;
+	background: #731414;
 }
 
 .filter-widget .fw-color-choose .cs-item label.cs-green:before {
-	background: #81D742;
+	background: #0c9c29;
 }
 
 .filter-widget .fw-color-choose .cs-item label:before {
