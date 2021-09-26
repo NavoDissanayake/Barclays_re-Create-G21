@@ -406,7 +406,7 @@ ol {
 	padding-top: 11px;
 	padding-bottom: 13px;
 	padding-right: 60px;
-	font-size: 16px;
+	font-size: 14px;
 	color: #252525;
 	position: relative;
 
@@ -457,7 +457,7 @@ ol {
 	background: #e7ab3c;
 	padding: 12px 16px 12px;
 	cursor: pointer;
-       border-top-right-radius: 10px;
+     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
