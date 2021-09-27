@@ -67,7 +67,7 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-	color: #fff;
+	color: #000000;
 }
 
 ul,
@@ -398,7 +398,7 @@ ol {
 }
 
 .inner-header .advanced-search .category-btn {
-	max-width: 30%;
+	max-width: 50%;
 	float: left;
 	background: transparent;
 	border: none;
