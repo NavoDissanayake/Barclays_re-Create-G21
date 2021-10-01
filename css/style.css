@@ -76,9 +76,6 @@ ol {
 	margin: 0;
 }
 
-/*---------------------
-  Helper CSS
------------------------*/
 
 .section-title {
 	margin-bottom: 40px;
@@ -169,7 +166,7 @@ ol {
 	cursor: pointer;
 }
 
-/* Preloder */
+
 
 #preloder {
 	position: fixed;
@@ -933,9 +930,6 @@ ol {
 	right: 40px;
 }
 
-/*---------------------
-  Banner Section
------------------------*/
 
 .banner-section {
 	padding: 80px 50px;
@@ -998,9 +992,6 @@ ol {
 	border-radius: 2px;
 }
 
-/*---------------------
-  Women Banner Section
------------------------*/
 
 .women-banner {
 	padding-right: 65px;
@@ -1292,9 +1283,6 @@ ol {
 	padding-bottom: 80px;
 }
 
-/*---------------------
-  Instagram Photo
------------------------*/
 
 .instagram-photo {
 	overflow: hidden;
@@ -1642,11 +1630,6 @@ ol {
 	float: right;
 }
 
-/*-------------------------------- Other Pages Style -------------------------------*/
-
-/*---------------------
-  Breadcrumb
------------------------*/
 
 .breadcrumb-text {
 	border-bottom: 1px solid #ebebeb;
@@ -2027,9 +2010,6 @@ ol {
 	content: "";
 }
 
-/*---------------------
-  Product Details
------------------------*/
 
 .product-shop.page-details {
 	padding-bottom: 60px;
@@ -2587,9 +2567,6 @@ ol {
 	margin-bottom: 45px;
 }
 
-/*---------------------
-  Related Products
------------------------*/
 
 .related-products {
 	padding-top: 0;
@@ -2604,9 +2581,6 @@ ol {
 	display: none;
 }
 
-/*---------------------
-  Shopping Cart
------------------------*/
 
 .shopping-cart {
 	padding-top: 80px;
@@ -3859,7 +3833,6 @@ ol {
 	color: #6B6B6B;
 }
 
-/* ------------------------------ Responsive Media Styles ---------------------------- */
 
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
 	.inner-header .advanced-search .input-group button {
