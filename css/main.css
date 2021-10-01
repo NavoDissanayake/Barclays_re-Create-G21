@@ -1,16 +1,17 @@
 html {
   line-height: 1.15;
-
+  /* 1 */
   -ms-text-size-adjust: 100%;
-
+  /* 2 */
   -webkit-text-size-adjust: 100%;
-
+  /* 2 */
 }
 
 
 body {
   margin: 0;
 }
+
 
 article,
 aside,
@@ -21,15 +22,17 @@ section {
   display: block;
 }
 
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
+
 figcaption,
 figure,
 main {
-
+  /* 1 */
   display: block;
 }
 
@@ -39,34 +42,35 @@ figure {
 
 hr {
   box-sizing: content-box;
-
+  /* 1 */
   height: 0;
-
+  /* 1 */
   overflow: visible;
-
+  /* 2 */
 }
+
 
 pre {
   font-family: monospace, monospace;
-
+  /* 1 */
   font-size: 1em;
-
+  /* 2 */
 }
 
 a {
   background-color: transparent;
-
+  /* 1 */
   -webkit-text-decoration-skip: objects;
-
+  /* 2 */
 }
 
 abbr[title] {
   border-bottom: none;
-
+  /* 1 */
   text-decoration: underline;
-
+  /* 2 */
   text-decoration: underline dotted;
-
+  /* 2 */
 }
 
 
@@ -85,15 +89,14 @@ code,
 kbd,
 samp {
   font-family: monospace, monospace;
-
+  /* 1 */
   font-size: 1em;
-
+  /* 2 */
 }
 
 dfn {
   font-style: italic;
 }
-
 
 mark {
   background-color: #ff0;
@@ -134,7 +137,9 @@ img {
   border-style: none;
 }
 
-
+/**
+ * Hide the overflow in IE.
+ */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -145,37 +150,36 @@ optgroup,
 select,
 textarea {
   font-family: sans-serif;
-
+  /* 1 */
   font-size: 100%;
-
+  /* 1 */
   line-height: 1.15;
-
+  /* 1 */
   margin: 0;
-
+  /* 2 */
 }
 
 
 button,
 input {
-
+  /* 1 */
   overflow: visible;
 }
 
-
 button,
 select {
-
+  /* 1 */
   text-transform: none;
 }
-
 
 button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-
+  /* 2 */
 }
+
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -198,25 +202,25 @@ fieldset {
 
 legend {
   box-sizing: border-box;
-
+  /* 1 */
   color: inherit;
-
+  /* 2 */
   display: table;
-
+  /* 1 */
   max-width: 100%;
-
+  /* 1 */
   padding: 0;
-
+  /* 3 */
   white-space: normal;
-
+  /* 1 */
 }
 
 
 progress {
   display: inline-block;
-
+  /* 1 */
   vertical-align: baseline;
-
+  /* 2 */
 }
 
 textarea {
@@ -226,9 +230,9 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
-
+  /* 1 */
   padding: 0;
-
+  /* 2 */
 }
 
 
@@ -239,9 +243,9 @@ textarea {
 
 [type="search"] {
   -webkit-appearance: textfield;
-
+  /* 1 */
   outline-offset: -2px;
-
+  /* 2 */
 }
 
 [type="search"]::-webkit-search-cancel-button,
@@ -249,12 +253,11 @@ textarea {
   -webkit-appearance: none;
 }
 
-
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
-
+  /* 1 */
   font: inherit;
-
+  /* 2 */
 }
 
 details,
@@ -266,9 +269,11 @@ summary {
   display: list-item;
 }
 
+
 canvas {
   display: inline-block;
 }
+
 
 template {
   display: none;
@@ -301,6 +306,10 @@ legend {
   -webkit-padding-start: 0;
   -webkit-padding-end: 0;
 }
+
+/*===============================
+=            Choices            =
+===============================*/
 .choices {
   position: relative;
   margin-bottom: 24px;
@@ -655,6 +664,7 @@ legend {
   opacity: .5;
 }
 
+/*=====  End of Choices  ======*/
 * {
   box-sizing: border-box;
 }
@@ -991,3 +1001,4 @@ legend {
   }
 }
 
+/*# sourceMappingURL=Searchs_009.css.map */
